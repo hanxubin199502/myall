@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="browsermode" content="application">
+  <link rel="icon" href="data:;base64,=">
+  <title>萌新商场</title>
+</head>
+<style>
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+</style>
+
+<body>
+  <div id="app"></div>
+
+</body>
+
+
+<script>
+  var uuid = ""
+
+  function getUuid() {
+    var s = [];
+    var hexDigits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    for (var i = 0; i < 36; i++) {
+      s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+    }
+    s[14] = "4";
+    s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1);
+    s[8] = s[13] = s[18] = s[23] = "-";
+    var uuid = s.join("");
+    return uuid;
+
+  }
+  uuid = getUuid()
+
+  if (!localStorage.getItem("uniqueId")) {
+    localStorage.setItem("uniqueId", uuid)
+  }
+
+</script>
+
+</html>
