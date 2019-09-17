@@ -26,4 +26,16 @@ npm run e2e
 # run all tests
 npm test
 ```
-![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/0101.png)
+<!-- 首页 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/1inx.jpg)
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/2inx.jpg)
+<!-- 发现 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/3inx.jpg)
+<!-- 分类 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/4inx.jpg)
+<!-- 购物车 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/5inx.jpg)
+<!-- 我的 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/6inx.jpg)
+<!-- 二级导航划到顶部悬浮 -->
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/7inx.jpg)
