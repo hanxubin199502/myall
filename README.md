@@ -26,4 +26,4 @@ npm run e2e
 # run all tests
 npm test
 ```
-![images](https://github.com/hanxubin199502/myall/src/assets/0101.png)
+![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/0101.png)
