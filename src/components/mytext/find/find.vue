@@ -50,7 +50,7 @@
                   class="ShopoftheDayauto_concent_li"
                   v-for="(itemss,index) in tablenativeconcent"
                   :key="index"
-                  @click="particularsclick(itemss.goodsId)"
+                  @click="particularsclick()"
                 >
                   <div class="ShopoftheDayauto_concent_liimg_warp">
                     <img :src="itemss.picture" alt class="ShopoftheDayauto_concent_liimg">
@@ -209,6 +209,9 @@ export default {
         }
 
       }
+    },
+    particularsclick(){
+      this.$router.push({path:'./finddetail'})
     },
     //滚动条大于500 返回顶部按钮出现
     touchmove () {

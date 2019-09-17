@@ -28,22 +28,28 @@ export default {
             push:"/find",
             icon:require("../../assets/find.png"),
             iconSelect:require("../../assets/find_t.png")
-               },
-               {
+        },
+        {
+            cls:"classification",
+            name:"分类",
+            push:"/classification",
+            icon:require("../../assets/fication_t.png"),
+            iconSelect:require("../../assets/fication.png")
+        },
+        {
             cls:"shopcart",
             name:"购物车",
             push:"/shopcart",
             icon:require("../../assets/shopcart.png"),
             iconSelect:require("../../assets/shopcart_t.png")
-            },
-            {
+        },
+        {
             cls:"mycenter",
             name:"我的",
             push:"/mycenter",
             icon:require("../../assets/mycenter.png"),
             iconSelect:require("../../assets/mycenter_t.png")
-			}
-            ]
+			  }]
         }
     },
 }
@@ -60,7 +66,7 @@ export default {
 }
 .footer div {
   float: left;
-  width: 25%;
+  width: 20%;
   text-align: center;
   height: 1.26rem;
   font-size: 0.293rem;
