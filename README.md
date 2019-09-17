@@ -39,3 +39,11 @@ npm test
 ![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/6inx.jpg)
 <!-- 二级导航划到顶部悬浮 -->
 ![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/7inx.jpg)
+
+
+git命令
+
+git pull  ------拉取远程代码
+git add -A ------合并代码
+git commit -m '备注' ------添加备注信息
+git push origin -u 分支 ------将本地代码推到远程分支
