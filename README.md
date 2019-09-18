@@ -48,4 +48,4 @@ git命令
 git pull  ------拉取远程代码
 git add -A ------合并代码
 git commit -m '备注' ------添加备注信息
-git push origin -u 分支 ------将本地代码推到远程分支
+git push -u origin 分支 ------将本地代码推到远程分支
