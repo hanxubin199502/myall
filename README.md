@@ -11,7 +11,7 @@
  - ![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/6inx.jpg)
  - 二级导航划到顶部悬浮
  - ![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/7inx.jpg)
-搜索页
+ - 搜索页
  - ![images](https://github.com/hanxubin199502/myall/blob/master/src/assets/8inx.jpg)
 
 
